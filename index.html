@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup Installer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Welcome to the Setup</h1>
+        <div class="step">
+            <label for="language">Choose your language:</label>
+            <select id="language">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+        <div class="step">
+            <label for="theme">Select theme:</label>
+            <select id="theme">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+        </div>
+        <div class="step">
+            <label>
+                <input type="checkbox" id="accept-policy">
+                I accept the privacy policy
+            </label>
+        </div>
+        <button id="finish-button">Finish</button>
+    </div>
+    <script src="preload.js"></script>
+</body>
+</html>
